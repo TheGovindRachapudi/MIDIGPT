@@ -2,7 +2,7 @@
 
 A sophisticated AI-powered MIDI generation application that combines **React.js**, **Flask**, **Spotify API**, and **OpenAI GPT-4** to create intelligent music compositions based on emotional descriptions and reference tracks.
 
-![MIDIGPT Screenshot](https://via.placeholder.com/800x400/0a0a0f/00bfff?text=MIDIGPT+Neural+Music+Generation)
+![Try It Out Now!](https://midigpt.netlify.app/)
 
 ## 🎵 Features
 
