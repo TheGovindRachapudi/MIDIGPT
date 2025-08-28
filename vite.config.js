@@ -32,5 +32,12 @@ export default defineConfig({
   build: {
     outDir: '../dist',
     emptyOutDir: true
+  },
+  define: {
+    'import.meta.env.VITE_API_URL': JSON.stringify(
+      process.env.NODE_ENV === 'production' 
+        ? process.env.VITE_API_URL || 'https://your-backend-url.com'
+        : 'http://localhost:5000'
+    )
   }
 })
